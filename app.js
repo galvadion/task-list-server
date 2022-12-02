@@ -32,3 +32,4 @@ app.use((err,req,res,next)=>{
 app.listen(8080,()=>{
     console.log('I\'m working')
 })
+module.exports = app
