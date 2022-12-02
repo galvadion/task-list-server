@@ -19,6 +19,10 @@ app.get('/healthcheck',(req,res)=> {
     res.sendStatus(204)
 })
 
+app.get("/", (req, res) => {
+    res.send("Express on Vercel");
+  });
+  
 // Agregamos las rutas de taskRoutes dentro de la ruta base /tasks
 app.use('/tasks',taskRoutes)
 app.use('/users',userRoutes)
