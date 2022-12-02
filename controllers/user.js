@@ -36,7 +36,7 @@ router.post('/register', async (req,res) =>{
     }
 
     users.push(newUser)
-    res.send({message:'Usuario creado exitosamente'})
+    res.send({message:'Usuario creado Tre bianne'})
 })
 
 router.post('/login',async(req,res)=>{
