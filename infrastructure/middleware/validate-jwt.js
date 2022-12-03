@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken')
 
-const TOKEN_SECRET = 'ClaveParaFirma'
+const TOKEN_SECRET = 'CLAVEVEVE'
 
 const verifyToken = (req,res,next)=>{
     const token = req.header('Authorization');
